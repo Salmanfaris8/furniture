@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind</title>
+    <link rel="stylesheet" href="./output.css">
+    <link rel="stylesheet" href="./style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <nav>
+      <div class="flex justify-between absolute w-full mt-3">
+        <div class="flex-none sm:ms-5 lg:ms-20">
+          <div class="flex items-center">
+            <a href=""><img width="70px" src="./images/logo.png" alt=""></a>
+            <h1 class="font-bold text-3xl"><a href="">Athāth</a></h1>
+          </div>
+        </div>
+        <input type="checkbox" class="hidden">
+            <label class="menu cursor-pointer text-4xl mt-5 me-5 flex lg:hidden"><i class='bx bx-menu'></i></label>
+        <div class="flex-initial hidden lg:flex items-center me-7">
+          <ul class="flex py-1 pe-10 ps-10">
+            <li class="font-semibold underline underline-offset-8 text-white"><a href="">Home</a></li>
+            <li class="ml-12 font-semibold text-gray-700 hover:underline hover:underline-offset-8"><a href="">About</a></li>
+            <li class="ml-12 font-semibold text-gray-700 hover:underline hover:underline-offset-8"><a href="">Collection</a></li>
+            <li class="ml-12 font-semibold text-gray-700 hover:underline hover:underline-offset-8"><a href="">Blog</a></li>
+            <li class="ml-12 font-semibold text-gray-700 hover:underline hover:underline-offset-8"><a href="">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="flex flex-wrap">
+      <div class="pb-72 w-full sm:w-1/2 bg-neutral-300"> 
+        <h1 class="pt-60 mb-3 ms-5 lg:ms-24 sm:ms-10 md:text-5xl text-4xl text- font-serif">Best Design of <span class="font-semibold text-black"><br> Furniture Collections</span></h1>
+        <div class="ms-5 lg:ms-24 sm:ms-10"><span class=" text-gray-500 text-lg">A small river named Duden flows by their place and supplies it with the necessary regelialia.</span></div><br>
+        <button class="ms-5 lg:ms-24 sm:ms-10 md:mt-4 pt-4 pb-4 ps-6 pe-6 hover:duration-1000 hover:bg-gradient-to-l from-transparent to-black bg-white rounded-full drop-shadow-lg hover:text-white hover:bg-black">DISCOVER</button>
+      </div>
+      <div class="w-1/2 hidden sm:flex" style="background-image: url(./images/chair.jpg);"></div>
+    </div>
+    <section>
+      <h1 class="text-5xl mt-28 font-mono font-bold text-center">Our Versatile Furniture Collections</span></h1>
+      <div class="flex justify-around ms-10 me-10 flex-wrap">
+        <div class="mt-10 cursor-pointer hover:opacity-100 opacity-75 hover:shadow-xl scale-100 hover:scale-105 hover:duration-700 bg-slate-100 p-4 rounded-3xl">
+          <img class="rounded-3xl h-52" width="300px" src="./images/livingroom.jpg" alt="">
+          <div class="text-center mt-1 ms-1 me-1 pt-1 pb-1 rounded-xl">
+            <span class="font-semibold ">LIVING ROOM</span>
+            <a class="text-xl" href=""><i class='bx bx-right-arrow-alt' ></i></a>
+          </div>
+        </div>
+        <div class="mt-10 cursor-pointer hover:opacity-100 opacity-75 hover:shadow-xl scale-100 hover:scale-105 hover:duration-700 bg-gray-100 p-4 rounded-3xl">
+          <img class="rounded-3xl h-52 " width="300px" src="./images/bedroom.jpg" alt="">
+          <div class="text-center mt-1 ms-1 me-1 pt-1 pb-1 rounded-xl">
+            <span class="font-semibold ">BEDROOM</span>
+            <a class="text-xl" href=""><i class='bx bx-right-arrow-alt' ></i></a>
+          </div>
+        </div>
+        <div class="mt-10 cursor-pointer hover:opacity-100 opacity-75 hover:shadow-xl scale-100 hover:scale-105 hover:duration-700 bg-stone-100 p-4 rounded-3xl">
+          <img class="rounded-3xl h-52 " width="300px" src="./images/dinning.jpg" alt="">
+          <div class="text-center mt-1 ms-1 me-1 pt-1 pb-1 rounded-xl">
+            <span class="font-semibold ">DINING ROOM</span>
+            <a class="text-xl" href=""><i class='bx bx-right-arrow-alt' ></i></a>
+          </div>
+        </div>
+        <div class="mt-10 cursor-pointer hover:opacity-100 opacity-75 hover:shadow-xl scale-100 hover:scale-105 hover:duration-700 bg-zinc-100 p-4 rounded-3xl">
+          <img class="rounded-3xl h-52 " width="300px" src="./images/office.jpg" alt="">
+          <div class="text-center mt-1 ms-1 me-1 pt-1 pb-1 rounded-xl">
+            <span class="font-semibold ">STUDY & OFFICE</span>
+            <a class="text-xl" href=""><i class='bx bx-right-arrow-alt' ></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="bg-neutral-300 pb-40 lg:pb-0 flex justify-center mt-20 flex-wrap">
+        <div class="lg:w-1/2 flex justify-center">
+          <img width="400px" class="" src="https://static.wixstatic.com/media/53a3ab_944cd1c0099e4163895e850459498e00~mv2.png/v1/fill/w_505,h_668,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/53a3ab_944cd1c0099e4163895e850459498e00~mv2.png" alt="">
+        </div>
+        <div class="lg:w-1/2 pt-20 flex-col items-center ps-5 sm:ps-20 lg:ps-0">
+          <span class="text-gray-500 font-semibold">ABOUT ATHĀTH</span>
+          <h1 class="text-5xl mt-3">Quality Makes the Belief for Customers</h1>
+          <p class="mt-8 text-stone-500 font-semibold hidden sm:block mb-5 pe-16">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+            <span class="w-24 h-24 rounded-full bg-orange-300 absolute animate-ping mt-5"></span>
+            <a class="text-orange-600 font-semibold absolute mt-14 ms-3" href=""><span class="bg-orange-600 p-6 text-lg text-white ps-7 pe-7 rounded-full me-6"><i class='bx bxs-right-arrow' ></i></span> Watch Video</a>
+        </div>
+      </div>
+    </section>
+    <section>
+      <span class="mt-20 block text-center">'Elegancia'</span>
+      <h1 class="text-5xl text-center font-black font">HERITAGE SOFA</h1>
+      <span class="ps-56 pe-56 mt-5 hidden md:block text-center">Revamp your home with our exclusive furniture deals! Discover premium sofas, beds, and dining sets at unbeatable prices. Don't miss out style and comfort are just a click away!</span>
+      <a class="mt-10 block text-center" href=""><span class="bg-black hover:bg-white hover:bg-gradient-to-l from-transparent to-white hover:duration-700 hover:text-black hover:shadow-2xl text-white hover:border-2 p-3 rounded-3xl ">BOOK NOW</span></a>
+    </section>
+    <section>
+      <h1 class="mt-20 text-center text-2xl font-bold font-serif">PREMIUM FURNITURES AT BEST OFFERS</h1>
+      <div class="me-3 flex justify-center flex-wrap mt-2">
+        <div class="mt-3 ms-3 flex-col scale-100 hover:scale-105 hover:duration-300 rounded-lg hover:shadow-lg items-center relative">
+          <a href=""><img class="rounded-lg" width="320px" src="./images/sofa.avif" alt=""></a>
+          <div class="absolute top-0 ms-32 mt-7">
+            <a class=" text-" href=""><h1 class="">Sofas & loungers</h1></a>
+            <a class="" href=""><span class="font-bold">Starting at ₹9000</span></a>
+          </div>
+        </div>
+        <div class="mt-3 ms-3  flex-col scale-100 hover:scale-105 hover:duration-300 rounded-lg hover:shadow-lg items-center relative">
+          <a href=""><img class="rounded-lg" width="320px" src="./images/bean.avif" alt=""></a>
+          <div class="absolute top-0 ms-32 mt-7">
+            <a class=" text-" href=""><h1 class="">Bean bags & pouffes</h1></a>
+            <a class="" href=""><span class="font-bold">Up to 60% off</span></a>
+          </div>
+        </div>
+        <div class="mt-3 ms-3 flex-col scale-100 hover:scale-105 hover:duration-300 rounded-lg hover:shadow-lg items-center relative">
+          <a href=""><img class="rounded-lg" width="320px" src="./images/almirahs.avif" alt=""></a>
+          <div class="absolute top-0 ms-32 mt-7">
+            <a class=" text-" href=""><h1 class="">Wooden wardrobes</h1></a>
+            <a class="" href=""><span class="font-bold">Starting at ₹16,000</span></a>
+          </div>
+        </div>
+        <div class="mt-3 ms-3 flex-col scale-100 hover:scale-105 hover:duration-300 rounded-lg hover:shadow-lg items-center relative">
+          <a href=""><img class="rounded-lg" width="320px" src="./images/recliners.avif" alt=""></a>
+          <div class="absolute top-0 ms-32 mt-7">
+            <a class=" text-" href=""><h1 class="">Recliners</h1></a>
+            <a class="" href=""><span class="font-bold">Starting at ₹27,000</span></a>
+          </div>
+        </div>
+        <div class="mt-3 ms-3 flex-col scale-100 hover:scale-105 hover:duration-300 rounded-lg hover:shadow-lg items-center relative">
+          <a href=""><img class="rounded-lg" width="320px" src="./images/king.avif" alt=""></a>
+          <div class="absolute top-0 ms-32 mt-7">
+            <a class=" text-" href=""><h1 class="">Kings size beds</h1></a>
+            <a class="" href=""><span class="font-bold">Under ₹60,000</span></a>
+          </div>
+        </div>
+        <div class="mt-3 ms-3 flex-col scale-100 hover:scale-105 hover:duration-300 rounded-lg hover:shadow-lg items-center relative">
+          <a href=""><img class="rounded-lg" width="320px" src="./images/queens.avif" alt=""></a>
+          <div class="absolute top-0 ms-32 mt-7">
+            <a class=" text-" href=""><h1 class="">Queen size beds</h1></a>
+            <a class="" href=""><span class="font-bold">Starting at ₹25,500</span></a>
+          </div>
+        </div>
+        <div class="mt-3 ms-3 flex-col scale-100 hover:scale-105 hover:duration-300 rounded-lg hover:shadow-lg items-center relative">
+          <a href=""><img class="rounded-lg" width="320px" src="./images/single.avif" alt=""></a>
+          <div class="absolute top-0 ms-32 mt-7">
+            <a class=" text-" href=""><h1 class="">Single beds</h1></a>
+            <a class="" href=""><span class="font-bold">Starting at ₹13,000</span></a>
+          </div>
+        </div>
+        <div class="mt-3 ms-3 flex-col scale-100 hover:scale-105 hover:duration-300 rounded-lg hover:shadow-lg items-center relative">
+          <a href=""><img class="rounded-lg" width="320px" src="./images/mattresses.avif" alt=""></a>
+          <div class="absolute top-0 ms-32 mt-7">
+            <a class=" text-" href=""><h1 class="">mattresses</h1></a>
+            <a class="" href=""><span class="font-bold">Up to 60% off</span></a>
+          </div>
+        </div>
+        <div class="mt-3 ms-3 flex-col scale-100 hover:scale-105 hover:duration-300 rounded-lg hover:shadow-lg items-center relative">
+          <a href=""><img class="rounded-lg" width="320px" src="./images/6seater.avif" alt=""></a>
+          <div class="absolute top-0 ms-32 mt-7">
+            <a class=" text-" href=""><h1 class="">6-seater dining tables</h1></a>
+            <a class="" href=""><span class="font-bold">Starting at ₹11,000</span></a>
+          </div>
+        </div>
+        <div class="mt-3 ms-3 flex-col scale-100 hover:scale-105 hover:duration-300 rounded-lg hover:shadow-lg items-center relative">
+          <a href=""><img class="rounded-lg" width="320px" src="./images/4seater.avif" alt=""></a>
+          <div class="absolute top-0 ms-32 mt-7">
+            <a class=" text-" href=""><h1 class="">4-seater dining tables</h1></a>
+            <a class="" href=""><span class="font-bold">Under ₹70,000</span></a>
+          </div>
+        </div>
+        <div class="mt-3 ms-3 flex-col scale-100 hover:scale-105 hover:duration-300 rounded-lg hover:shadow-lg items-center relative">
+          <a href=""><img class="rounded-lg" width="320px" src="./images/diningsets.avif" alt=""></a>
+          <div class="absolute top-0 ms-32 mt-7">
+            <a class=" text-" href=""><h1 class="">Dining sets</h1></a>
+            <a class="" href=""><span class="font-bold">Up to 50% off</span></a>
+          </div>
+        </div>
+        <div class="mt-3 ms-3 flex-col rounded-lg scale-100 hover:scale-105 hover:duration-300 hover:shadow-lg items-center relative">
+          <a href=""><img class="rounded-lg" width="320px" src="./images/diningchair.avif" alt=""></a>
+          <div class="absolute top-0 ms-32 mt-7">
+            <a class=" text-" href=""><h1 class="">Dining chairs</h1></a>
+            <a class="" href=""><span class="font-bold">Starting at ₹6,000</span></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="flex justify-around mt-32 text-white pt-10 pb-10 bg-stone-600 flex-wrap">
+        <div class="mt-10 ms-3">
+          <h1>QUICK LINKS</h1>
+            <div class="mt-2">
+              <a class="hover:text-stone-400" href=""><h1>Home</h1></a>
+              <a class="hover:text-stone-400" href=""><h1>About</h1></a>
+              <a class="hover:text-stone-400" href=""><h1>Collection</h1></a>
+              <a class="hover:text-stone-400" href=""><h1>Blog</h1></a>
+            </div>
+        </div>
+        <div class="mt-10 ms-3">
+          <h1>SERVICES</h1>
+            <div class="mt-2">
+              <a class="hover:text-stone-400" href=""><h1>Dismantling Service</h1></a>
+              <a class="hover:text-stone-400" href=""><h1>Re-installation</h1></a>
+              <a class="hover:text-stone-400" href=""><h1>Loose Fitting</h1></a>
+              <a class="hover:text-stone-400" href=""><h1>Complaints</h1></a>
+            </div>
+        </div>
+        <div class="mt-10 ms-3">
+          <h1>CORPORATE INFO</h1>
+            <div class="mt-2">
+              <a class="hover:text-stone-400" href=""><h1>Blogs</h1></a>
+              <a class="hover:text-stone-400" href=""><h1>Become A Franchise</h1></a>
+              <a class="hover:text-stone-400" href=""><h1>Rent Your Property</h1></a>
+            </div>
+        </div>
+        <div class="mt-10 ms-3">
+          <h1>ATHĀTH</h1>
+            <div class="mt-2">
+              <a class="hover:text-stone-400" href=""><h1>Our Story</h1></a>
+              <a class="hover:text-stone-400" href=""><h1>Sell With Athāth</h1></a>
+              <a class="hover:text-stone-400" href=""><h1>Career</h1></a>
+              <a class="hover:text-stone-400" href=""><h1>Contact Us</h1></a>
+            </div>
+        </div>
+        <div class="mt-10 ms-3">
+          <h1>MY ACCOUNT</h1>
+            <div class="mt-2">
+              <a class="hover:text-stone-400" href=""><h1>My Cart</h1></a>
+              <a class="hover:text-stone-400" href=""><h1>My Orders</h1></a>
+              <a class="hover:text-stone-400" href=""><h1>Track Orders</h1></a>
+            </div>
+        </div>
+        <div class="mt-10 ms-3">
+          <h1 class="text-xl">SOCIAL ACCOUNTS</h1>
+          <div class="mt-5">
+            <a class="bg-white hover:bg-blue-800 hover:text-white text-blue-800 rounded-full ps-1 pe-1 text-2xl" href=""><i class='bx bxl-facebook'></i></a>
+            <a class="bg-white hover:text-white hover:bg-red-700 text-red-700 rounded-full ps-1 pe-1 text-2xl" href=""><i class='bx bxl-instagram' ></i></a>
+            <a class="bg-white hover:text-white hover:bg-red-600 text-red-600 rounded-full ps-1 pe-1 text-2xl" href=""><i class='bx bxl-youtube'></i></a>
+            <a class="bg-white hover:text-white hover:bg-blue-900 text-blue-900 rounded-full ps-1 pe-1 text-2xl" href=""><i class='bx bxl-twitter'></i></a>
+            <a class="bg-white hover:text-white hover:bg-blue-700 text-blue-700 rounded-full ps-1 pe-1 text-2xl" href=""><i class='bx bxl-linkedin-square' ></i></a>
+          </div>
+          <h1 class="mt-5 text-xl">PAY USING</h1>
+          <div class="flex mt-5">
+            <a class="bg-white rounded-md pt-0.5 h-7" href=""><img width="40px" src="./images/maestro.png" alt=""></a>
+            <a class="bg-white pt-2 rounded-md h-7 ms-1 ps-1 pe-1" href=""><img width="40px" src="./images/visa.png" alt=""></a>
+            <a class="bg-white pt-2 rounded-md ms-1 ps-1 pe-1" href=""><img width="40px" src="./images/rupay.png" alt=""></a>
+            <a class=" rounded-md bg-white ms-1 ps-1 pe-1 pt-0.5" href=""><img width="40px" src="https://logodownload.org/wp-content/uploads/2014/07/mastercard-logo.png" alt=""></a>
+          </div>
+        </div>
+      </div>
+      <div class="bg-stone-600 border-b">
+        <div class="pt-10 pb-10">
+          <div class="ms-20 me-20 pt-2 pb-2 rounded-lg bg-stone-500 shadow-xl">
+            <div class="flex justify-around flex-wrap">
+              <div class="flex">
+                <img class="ps-2" width="80px" src="./images/truck.png" alt="">
+                <div class="mt-4 ms-2 text-white">
+                  <h1>Free Delivery</h1>
+                  <span class="hidden sm:inline">When ordering from Rs. 2500.</span>
+                </div>
+              </div>
+              <div class="flex sm:me-14">
+                <img width="80px" src="./images/money.png" alt="">
+                <div class="mt-4 text-white">
+                  <h1>Easy RETURNS</h1>
+                  <span class="hidden sm:inline">If goods have problems</span>
+                </div>
+              </div>
+              <div class="flex sm:me-16">
+                <img width="80px" src="./images/wallet.png" alt="">
+                <div class="mt-4 text-white">
+                  <h1>Secure Payment</h1>
+                  <span class="hidden sm:inline">100% secure payment</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="flex flex-wrap justify-center bg-stone-600 text-white pt-7 pb-7">
+        <span class="me-3">&copy;2024,Athāth</span>|
+        <span class="ms-3 me-3"> All rights reserved</span>| 
+        <a class="ms-3 me-3 hover:text-orange-200" href="">Privacy Policy</a>|
+        <a class="ms-3 me-3 hover:text-orange-200" href="">Terms & Condition</a>|
+        <a class="ms-3 hover:text-orange-200" href="">Cancellation Policies</a>
+      </div>
+    </footer>
+</body>
+</html>
